@@ -7,8 +7,8 @@ export default function Layout() {
 	return (
 		<div>
 			<img className="blob-1" src={blob1} />
-			<img className="blob-2" src={blob2} />
 			<Outlet />
+			<img className="blob-2" src={blob2} />
 		</div>
 	)
 }
